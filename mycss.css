@@ -1,0 +1,19 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+  
