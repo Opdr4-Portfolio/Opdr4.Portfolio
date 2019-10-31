@@ -19,6 +19,12 @@
                 <h1>I am .............</h1>
                 <h3> Vista College I.A.145</h3>
             </div>
+
+            <div class="OverMijzelf">
+                <p><b>Hallo Ik ben...,</b><br>
+                    ik ga U vertellen over mijzelf, mijn Hobbys,Interresses etc.<br>
+                </p>
+            </div>
             
         </div>
 
@@ -29,9 +35,30 @@
               //alert("i am click");
               var selected = $(this);
               $('a').removeClass('active');
-              $(selected).addClass('active');
+              $(selected).addClass('active');     
 
           });
+
+          var $a = $('.a'),
+          $b = $('.b'),
+          $c = $('.c'),
+          $d = $('.d'),
+          $home = $('.home'),
+          $OverMijzelf = $('.OverMijzelf');
+
+          $a.click(function(){
+              $home.fadeIn();
+              $OverMijzelf.fadeOut();
+          });
+          $b.click(function(){
+            $OverMijzelf.fadeIn();
+            $home.fadeOut();
+            
+
+          });
+         
+
+
 
 
       });

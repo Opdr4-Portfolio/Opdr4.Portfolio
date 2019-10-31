@@ -78,3 +78,18 @@ a.active, .nav a:hover{
      padding:5px 0;
      opacity: 0.6;
  }
+ .OverMijzelf{
+    position: center;
+    right: 0;
+    top: 0px;
+    color: black;
+    font-family: century gotic; 
+    padding: 0 60px;
+    display: none;
+ }
+ .OverMijzelf p{
+     font-size: 18px;
+     line-height:28px;
+     margin-bottom:15px;
+
+ }
