@@ -13,8 +13,25 @@
             <a class="d" href="#">Contact</a> 
         </div>
         <img class="background" src="./Images/portfolio.jpg">
+        <div class="content">
+            
+        </div>
 
 <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+          $('a').click(function(){
+              //alert("i am click");
+              var selected = $(this);
+              $('a').removeClass('active');
+              $(selected).addClass('active');
+
+          });
+
+
+      });
+
+</script>
     
 </body>
 </html>
