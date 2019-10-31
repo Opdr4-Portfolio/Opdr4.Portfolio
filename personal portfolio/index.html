@@ -12,7 +12,7 @@
             <a class="c" href="#">Lab Page</a>
             <a class="d" href="#">Contact</a> 
         </div>
-        <img class="background" src="./Images/portfolio.jpg">
+        <img class="background" src="./Images/Portfolio..jpg" width="100%" height="100%">
         <div class="content">
 
             <div class="home">
@@ -44,23 +44,35 @@
           $c = $('.c'),
           $d = $('.d'),
           $home = $('.home'),
-          $OverMijzelf = $('.OverMijzelf');
+          $OverMijzelf = $('.OverMijzelf'),
+          $Labpage = $('.lab page'),
+          $contact = $('.contact'),;
 
           $a.click(function(){
               $home.fadeIn();
               $OverMijzelf.fadeOut();
+              $Labpage.fadeOut();
+              $contact.fadeOut();
           });
           $b.click(function(){
             $OverMijzelf.fadeIn();
             $home.fadeOut();
-            
-
+            $Labpage.fadeOut();
+            $contact.fadeOut();
           });
-         
-
-
-
-
+          $c.click(function(){
+            $Labpage.fadeIn();
+            $home.fadeOut();
+            $OverMijzelf.fadeOut();
+            $contact.fadeOut();
+          });
+          $d.click(function(){
+            $contact.fadeIn();
+            $home.fadeOut();
+            $Labpage.fadeIn();
+            $OverMijzelf.fadeOut();
+            
+          });
       });
 
 </script>
