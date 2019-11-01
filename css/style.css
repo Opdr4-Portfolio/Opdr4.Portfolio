@@ -146,3 +146,33 @@ a.active, .nav a:hover{
 	clear: both;
 	margin-top: 25px;
 }
+
+.gallery{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: white;
+	padding: 0 60px;
+	display: none;
+}
+.gallery .image{
+	width: 31%;
+	margin: 1%;
+	float: left;
+}
+.image img{
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+.image img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+
+.image video{
+	width: 100%;
+	height: auto;
+}
