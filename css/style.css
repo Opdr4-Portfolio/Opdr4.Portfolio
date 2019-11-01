@@ -161,7 +161,7 @@ a.active, .nav a:hover{
 	float: left;
 }
 .image img{
-	width: 100%;
+	width: 90%;
 	transition: all ease 0.5s;
 	-webkit-transition: all ease 0.5s;
 	transform: scale(1);
