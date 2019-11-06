@@ -11,7 +11,7 @@
 <div class="nav">
 	<a class="a active" href="#">HOME</a>
 	<a class="b" href="#">ABOUT ME</a>
-	<a class="c" href="#">Gallery</a>
+	<a class="c" href="#">Lab page</a>
 	<a class="d" href="#">CONTACT </a>
 </div>
 
@@ -19,45 +19,43 @@
 	
 	<div class="home">
 		<h1>Ik ben ........</h1>
-		<h3>A.I.145</h3>
+		<h3>Vista College</h3>
 	</div>
 
 	<div class="aboutus">
 		<p><b>Hello ,</b><br>
-			<p><b>Ik ga Jullie Vertellen over mijn interesses hobby's etc.</b><br>
+			<p><b>Ik ga jullie Vertellen over .....</b></p>
 	
 	</div>
-
-	<div class="gallery">
-		<div class="image">
-			<img src="images/1.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/2.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/3.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/4.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/5.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/6.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/7.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/8.jpg" />
-		</div>
-		<div class="image">
-			<img src="images/9.jpg" />
-		</div>
+	<div class="labpage">
+		<p><b> in deze labpage laat ik een paar andere projecten zien.</b><br>
+			<br>
+			<br>
+			<hr color="black">
+		<h1>In de eerste Website heb ik een website gemaakt waarin over het mijn verleden in heerlen.</h1>
+		<a href="./mijn verleden heerlen/index.html">Link Mijn Verleden Heerlen</a>
+		<br>
+		<br>
+		<hr color="black">
+		<br>
+		<h2>in de 2de website heb ik een verkoopwebsite over super cars gemaakt</h2>
+		<br>
+		<a href="#">Link Super Cars Online</a>
+		<br>
+		<br>
+		<hr color="black">
+		<br>
+		<br>
+		<h3>Ook heb ik ook nog een blog gemaakt</h3>
+		<br>
+		<a href="#">Link Blog</a>
+		<br>
+		<br>
+		<hr color="black">
+			
+	
 	</div>
-
+	
 	
 
 	<div class="contactus">
@@ -91,23 +89,23 @@ $(document).ready(function(){
 	$d = $('.d'),
 	$home = $('.home'),
 	$aboutus = $('.aboutus'),
-	$gallery = $('.gallery'),
+	$labpage = $('.labpage'),
 	$contactus = $('.contactus');
 
 	$a.click(function(){
 		$home.fadeIn();
 		$aboutus.fadeOut();
-		$gallery.fadeOut();
+		$labpage.fadeOut();
 		$contactus.fadeOut();
 	});
 	$b.click(function(){
 		$aboutus.fadeIn();
 		$home.fadeOut();
-		$gallery.fadeOut();
+		$labpage.fadeOut();
 		$contactus.fadeOut();
 	});
 	$c.click(function(){
-		$gallery.fadeIn();
+		$labpage.fadeIn();
 		$home.fadeOut();
 		$aboutus.fadeOut();
 		$contactus.fadeOut();
@@ -115,7 +113,7 @@ $(document).ready(function(){
 	$d.click(function(){
 		$contactus.fadeIn();
 		$home.fadeOut();
-		$gallery.fadeOut();
+		$labpage.fadeOut();
 		$aboutus.fadeOut();
 	});
 });
