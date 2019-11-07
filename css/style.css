@@ -88,20 +88,7 @@ a.active, .nav a:hover{
 }
 
 
-.aboutus{
-	position: absolute;
-	right: 0;
-	top: 10px;
-	color: white;
-	font-family: century gothic;
-	padding: 0 60px;
-	display: none;
-}
-.aboutus p{
-	font-size: 40px;
-	line-height: 28px;
-	margin-bottom: 15px;
-}
+
 
 
 .contactus{
@@ -163,18 +150,49 @@ hr{
 
   }
 .labpage b{
-	font-size: 40px;
-	line-height: 50px;
-	margin-bottom: 30px;
+	font-size: 30px;
 }
 .labpage h1{
 	font-size: 20px;
-	line-height: 50px;
-	margin-bottom: 30px;
+	list-style: 20px;;
+	margin-bottom: 20px;
 
 }
 .labpage a{
 	font-size: 20px;
-	color: black;
+	color: gray;
 	
 }
+
+.aboutus{
+	position: center;
+	right: 0;
+	top: 10px;
+	color: white;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
+	
+}
+hr{ 
+	height: 1px;
+	color : black
+
+  }
+.aboutus b{
+	font-size: 30px;
+}
+.aboutus h1{
+	font-size: 20px;
+	list-style: 20px;;
+	margin-bottom: 20px;
+
+}
+.aboutus a{
+	font-size: 20px;
+	color: gray;
+	
+}
+
+
+
