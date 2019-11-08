@@ -92,7 +92,7 @@ a.active, .nav a:hover{
 
 
 .contactus{
-	position: absolute;
+	position: center;
 	right: 0;
 	top: 10px;
 	color: white;
@@ -135,7 +135,7 @@ a.active, .nav a:hover{
 }
 
 .labpage{
-	position: absolute;
+	position: center;
 	right: 0;
 	top: 10px;
 	color: white;
